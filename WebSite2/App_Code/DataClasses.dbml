@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BCTest" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-4SJNE01\SQLEXPRESS;Initial Catalog=BCTest;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BCTestConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Lots" Member="Lots">
+    <Type Name="Lot">
+      <Column Name="[Lot Number]" Member="Lot_Number" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="xcoordinate" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ycoordinate" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="availability" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
